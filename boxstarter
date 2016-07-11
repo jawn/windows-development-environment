@@ -23,8 +23,6 @@ cinst -y visualstudiocode
 cinst -y visualstudio2015enterprise
 if (Test-PendingReboot) { Invoke-Reboot }
 
-if (Test-PendingReboot) { Invoke-Reboot }
-
 ## Basics
 cinst -y vlc
 cinst -y GoogleChrome
