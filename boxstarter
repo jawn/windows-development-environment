@@ -5,8 +5,14 @@ Update-ExecutionPolicy Unrestricted
 
 cinst -y Microsoft-Hyper-V-All -source windowsFeatures
 
+## Image capturing
+cinst -y greenshot
+
+## Mind mapping
+cinst -y xmind
+
 # Cloud services
-cinst -y Dropbox
+#cinst -y Dropbox ## disabled since package seems to be broken
 cinst -y Evernote
 
 # Packages
@@ -26,6 +32,13 @@ cinst -y visualstudiocode
 ## Visual Studio 2015 Enterprise
 cinst -y visualstudio2015enterprise
 if (Test-PendingReboot) { Invoke-Reboot }
+
+## Web Platform installer
+cinst webpi
+
+## Visual Studio add-ins
+cinst -y resharper   ## requires a license
+
 
 ## Basics
 cinst -y vlc
