@@ -35,6 +35,8 @@ cinst -y vlc
 cinst -y GoogleChrome
 cinst -y sysinternals
 cinst -y DotNet3.5
+cinst -y PowerBI
+
 if (Test-PendingReboot) { Invoke-Reboot }
 
 # Let's get Updates, too
