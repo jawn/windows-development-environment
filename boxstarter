@@ -37,6 +37,9 @@ cinst -y sysinternals
 cinst -y DotNet3.5
 cinst -y PowerBI
 
+## Utilities
+cinst -y WinDirStat
+
 if (Test-PendingReboot) { Invoke-Reboot }
 
 # Let's get Updates, too
