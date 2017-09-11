@@ -18,6 +18,7 @@ cinst -y Evernote
 
 ## Editors
 cinst -y visualstudiocode
+cinst --x86 notepadplusplus.install
 
 ## Visual Studio 2015 Enterprise
 cinst -y visualstudio2015enterprise
