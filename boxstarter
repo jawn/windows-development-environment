@@ -24,11 +24,15 @@ cinst --x86 notepadplusplus.install
 cinst -y visualstudio2015enterprise
 if (Test-PendingReboot) { Invoke-Reboot }
 
+
 ## Web Platform installer
 cinst webpi
 
 ## Visual Studio add-ins
 cinst -y resharper   ## requires a license
+
+## SQL Server Management Studio
+cinst -y sql-server-management-studio
 
 ## Basics
 cinst -y fiddler4
