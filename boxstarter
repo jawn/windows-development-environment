@@ -39,8 +39,8 @@ cinst -y fiddler4
 cinst -y vlc
 cinst -y GoogleChrome
 cinst -y sysinternals
-cinst -y DotNet3.5
 cinst -y PowerBI
+cinst -y winmerge
 
 ## Utilities
 cinst -y WinDirStat
