@@ -17,8 +17,8 @@ cinst -y Evernote
 
 
 ## Editors
-cinst -y visualstudiocode
-cinst --x86 notepadplusplus.install
+cinst -y --x86 notepadplusplus.install
+cinst -y vscode
 
 ## Visual Studio 2015 Enterprise
 cinst -y visualstudio2015enterprise
@@ -41,6 +41,10 @@ cinst -y GoogleChrome
 cinst -y sysinternals
 cinst -y PowerBI
 cinst -y winmerge
+
+## Communication
+cinst -y microsoft-teams
+cinst -y zoom
 
 ## Utilities
 cinst -y WinDirStat
