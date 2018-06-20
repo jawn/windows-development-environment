@@ -42,6 +42,9 @@ cinst -y sysinternals
 cinst -y PowerBI
 cinst -y winmerge
 
+## Fonts
+cinst -y firacode
+
 ## Communication
 cinst -y microsoft-teams
 cinst -y zoom
