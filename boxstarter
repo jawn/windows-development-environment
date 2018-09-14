@@ -30,7 +30,8 @@ cinst webpi
 
 ## Visual Studio add-ins
 cinst -y resharper   ## requires a license
-
+cinst -y dotpeek
+ 
 ## SQL Server Management Studio
 cinst -y sql-server-management-studio
 
