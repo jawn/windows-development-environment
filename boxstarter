@@ -20,8 +20,8 @@ cinst -y Evernote
 cinst -y --x86 notepadplusplus.install
 cinst -y vscode
 
-## Visual Studio 2015 Enterprise
-cinst -y visualstudio2015enterprise
+## Visual Studio 2017 Enterprise
+cinst -y visualstudio2017enterprise
 if (Test-PendingReboot) { Invoke-Reboot }
 
 
