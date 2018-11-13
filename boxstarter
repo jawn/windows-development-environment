@@ -36,7 +36,7 @@ cinst -y dotpeek
 cinst -y sql-server-management-studio
 
 ## Basics
-cinst -y fiddler4
+cinst -y fiddler
 cinst -y vlc
 cinst -y GoogleChrome
 cinst -y sysinternals
