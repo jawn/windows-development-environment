@@ -45,6 +45,7 @@ cinst -y GoogleChrome
 cinst -y sysinternals
 cinst -y PowerBI
 cinst -y winmerge
+cinst -y 7zip.install
 
 ## Fonts
 cinst -y firacode
