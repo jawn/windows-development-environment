@@ -46,6 +46,7 @@ cinst -y sysinternals
 cinst -y PowerBI
 cinst -y winmerge
 cinst -y 7zip.install
+cinst -y filezilla
 
 ## Fonts
 cinst -y firacode
