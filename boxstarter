@@ -22,8 +22,8 @@ cinst -y vscode
 
 ## Visual Studio 2017 Enterprise
 cinst -y visualstudio2017enterprise
-if (Test-PendingReboot) { Invoke-Reboot }
-
+cinst visualstudio2017-workload-netweb
+cinst visualstudio2017-workload-netcoretools
 
 ## Web Platform installer
 cinst webpi
