@@ -22,8 +22,11 @@ cinst -y vscode
 
 ## Visual Studio 2017 Enterprise
 cinst -y visualstudio2017enterprise
-cinst visualstudio2017-workload-netweb
-cinst visualstudio2017-workload-netcoretools
+cinst -y visualstudio2017-workload-netweb
+cinst -y visualstudio2017-workload-netcoretools
+
+# Add nuget.exe, not included in Visual Studio anymore
+cinst -y nuget.commandline
 
 ## Web Platform installer
 cinst webpi
