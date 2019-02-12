@@ -45,6 +45,7 @@ cinst -y sql-server-management-studio
 cinst -y fiddler
 cinst -y vlc
 cinst -y GoogleChrome
+cinst -y Firefox
 cinst -y sysinternals
 cinst -y PowerBI
 cinst -y winmerge
