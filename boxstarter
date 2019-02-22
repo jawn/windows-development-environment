@@ -47,7 +47,7 @@ cinst -y vlc
 cinst -y GoogleChrome
 cinst -y Firefox
 cinst -y sysinternals
-cinst -y PowerBI
+# cinst -y PowerBI - use store
 cinst -y winmerge
 cinst -y 7zip.install
 cinst -y filezilla
