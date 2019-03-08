@@ -68,7 +68,11 @@ cinst -y zoom
 cinst -y WinDirStat
 cinst -y visioviewer
 
+cinst -y logitech-options
+
 if (Test-PendingReboot) { Invoke-Reboot }
 
 # Let's get Updates, too
 Install-WindowsUpdate -acceptEula
+
+
