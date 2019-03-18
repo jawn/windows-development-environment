@@ -17,7 +17,8 @@ cinst -y Evernote
 
 
 ## Editors
-cinst -y --x86 notepadplusplus.install
+cinst -y  notepadplusplus.install
+cinst notepadplusplus-nppPluginManager
 cinst -y vscode
 
 ## Visual Studio 2017 Enterprise
