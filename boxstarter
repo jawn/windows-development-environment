@@ -35,6 +35,9 @@ cinst webpi
 ## Visual Studio add-ins
 cinst -y resharper   ## requires a license
 cinst -y dotpeek
+
+## PowerShell Core
+cinst -y powershell-core
  
 ## Azure
 cinst -y microsoftazurestorageexplorer
