@@ -46,6 +46,7 @@ cinst -y microsoftazurestorageexplorer
 cinst -y sql-server-management-studio
 
 ## Basics
+cinst -y github-desktop
 cinst -y fiddler
 cinst -y vlc
 cinst -y GoogleChrome
