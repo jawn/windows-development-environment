@@ -1,0 +1,47 @@
+# This configuration is to support legacy development in a VM
+
+# Configure Windows
+Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions -EnableShowFullPathInTitleBar
+
+Update-ExecutionPolicy Unrestricted
+
+## Image capturing
+cinst -y greenshot
+
+## Editors
+cinst -y notepadplusplus.install
+cinst notepadplusplus-nppPluginManager
+cinst -y vscode
+
+## Visual Studio 2017 Enterprise
+cinst -y visualstudio2017enterprise
+cinst -y visualstudio2017-workload-netweb
+# cinst -y visualstudio2017-workload-netcoretools # Not needed for now
+
+# Add nuget.exe, not included in Visual Studio anymore
+cinst -y nuget.commandline
+
+## Web Platform installer
+cinst webpi
+
+## Visual Studio add-ins
+cinst -y resharper   ## requires a license
+
+## Basics
+# cinst -y GoogleChrome
+cinst -y sysinternals
+cinst -y winmerge
+cinst -y 7zip.install
+
+## Fonts
+cinst -y firacode
+
+## Utilities
+cinst -y WinDirStat
+
+if (Test-PendingReboot) { Invoke-Reboot }
+
+# Let's get Updates, too
+Install-WindowsUpdate -acceptEula
+
+
