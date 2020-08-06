@@ -4,6 +4,7 @@ Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtec
 Update-ExecutionPolicy Unrestricted
 
 cinst -y Microsoft-Hyper-V-All -source windowsFeatures
+cinst -y PowerToys
 
 ## Image capturing
 cinst -y greenshot
