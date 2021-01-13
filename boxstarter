@@ -73,6 +73,7 @@ cinst -y zoom
 ## Utilities
 cinst -y WinDirStat
 cinst -y visioviewer
+cinst -y eartrumpet
 
 cinst -y logitech-options
 
