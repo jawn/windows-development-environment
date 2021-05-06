@@ -67,7 +67,6 @@ cinst -y gsview
 cinst -y pandoc
 
 ## Communication
-cinst -y microsoft-teams
 cinst -y zoom
 
 ## Utilities
